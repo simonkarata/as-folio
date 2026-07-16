@@ -32,10 +32,10 @@ export const site = {
   // ─── Identity ──────────────────────────────────────────────────────────────
 
   /** Site title. Shown in the browser tab and navbar. */
-  title: 'Albert Einstein',
+  title: 'Simon Karata',
 
   /** Site description. Used in meta tags. */
-  description: 'A simple, clean, and responsive Astro template for academics. Powered by as-folio.',
+  description: 'I bridge the gap between algorithmic precision and brand storytelling. Specializing in 3D reconstruction, real-time rendering, and high-impact web experiences.',
 
   /** Language code for the site. */
   lang: 'en',
@@ -44,10 +44,10 @@ export const site = {
 
   author: {
     /** Full name shown in navbar, about page heading, and footer. */
-    name: 'Albert Einstein',
+    name: 'Karata',
 
     /** Short email address (used in social links). */
-    email: 'einstein@example.com',
+    email: 'me@example.com',
 
     /** Path to profile photo. Place image in public/assets/img/. */
     avatar: '/assets/img/prof_pic.jpg',
@@ -56,18 +56,18 @@ export const site = {
      * Subtitle below your name on the about page.
      * HTML is supported.
      */
-    subtitle: `Theoretical Physicist
+    subtitle: `Graphics Researcher
       &nbsp;·&nbsp;
-      <a href="https://en.wikipedia.org/wiki/Institute_for_Advanced_Study">Institute for Advanced Study</a>,
-      Princeton`,
+      <a href="https://en.wikipedia.org/wiki/3D_computer_graphics">3D Computer Graphics</a>,
+      Nairobi`,
 
     /**
      * Address block below profile photo.
      * HTML is supported.
      */
-    moreInfo: `<p>Institute for Advanced Study</p>
-      <p>Einstein Drive</p>
-      <p>Princeton, NJ 08540</p>`,
+    moreInfo: `<p>3D Computer Graphics</p>
+      <p>Web Design Studio</p>
+      <p>Smart Homes</p>`,
   },
 
   // ─── Social links ──────────────────────────────────────────────────────────
@@ -79,7 +79,7 @@ export const site = {
   //   bluesky_handle, medium_username, cv_pdf, rss_icon
 
   socials: {
-    email: 'einstein@example.com',
+    email: 'skkariuki20202gmail.com.com',
     x_username: undefined as string | undefined,
     linkedin_username: undefined as string | undefined,
     github_username: undefined as string | undefined,
@@ -141,8 +141,7 @@ export const site = {
      * Text shown in footer. HTML is supported.
      * Leave empty string to hide.
      */
-    text: `Powered by <a href="https://github.com/dadangnh/as-folio" target="_blank" rel="noopener noreferrer">as-folio</a>.
-      Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.`,
+    text: ``,
     /** Show "Last updated" timestamp in footer. */
     lastUpdated: false,
     /** Path to impressum/legal page (EU GDPR). Leave undefined to hide. */
@@ -173,8 +172,8 @@ export const site = {
 
   blog: {
     /** Name shown in the blog page heading. */
-    name: 'as-folio',
-    description: 'A simple, clean, and responsive Astro template for academics.',
+    name: 'Blog',
+    description: 'My take on a thing or two about things',
     /** Number of posts per page. */
     postsPerPage: 5,
     /**
