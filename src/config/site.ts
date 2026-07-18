@@ -47,10 +47,10 @@ export const site = {
     name: 'Karata',
 
     /** Short email address (used in social links). */
-    email: 'me@example.com',
+    email: 'skkariuki2020@gmail.com',
 
     /** Path to profile photo. Place image in public/assets/img/. */
-    avatar: '/assets/img/prof_pic.jpg',
+    avatar: '/assets/img/kariss.png',
 
     /**
      * Subtitle below your name on the about page.
@@ -82,7 +82,7 @@ export const site = {
     email: 'skkariuki20202gmail.com.com',
     x_username: undefined as string | undefined,
     linkedin_username: undefined as string | undefined,
-    github_username: undefined as string | undefined,
+    github_username: 'simonkarata',
     gitlab_username: undefined as string | undefined,
     /** Google Scholar user ID — the part after user= in your Scholar URL */
     scholar_userid: 'qc6CJjYAAAAJ',
@@ -165,7 +165,7 @@ export const site = {
      */
     format: 'rendercv' as 'rendercv' | 'jsonresume',
     /** Path to CV PDF for the download button in public/assets/pdf/. */
-    pdfPath: '/assets/pdf/example_pdf.pdf',
+    pdfPath: '/assets/pdf/simonkarata.pdf',
   },
 
   // ─── Blog ──────────────────────────────────────────────────────────────────
@@ -204,7 +204,7 @@ export const site = {
 
   announcements: {
     /** Show news/announcements section on the about page. */
-    enabled: true,
+    enabled: false,
     /** Enable vertical scroll if more than 3 items. */
     scrollable: true,
     /** Max news items to show (undefined = show all). */
@@ -213,7 +213,7 @@ export const site = {
 
   latestPosts: {
     /** Show latest blog posts section on the about page. */
-    enabled: true,
+    enabled: false,
     scrollable: true,
     limit: 3 as number | undefined,
   },
@@ -407,7 +407,7 @@ export const site = {
   pages: {
     projects: {
       /** Description shown below the "projects" heading on the projects page. */
-      description: 'A growing collection of your cool projects.',
+      description: 'A growing collection of some cool projects I got to work on.',
     },
     teaching: {
       /** Description shown below the "teaching" heading on the teaching page. */

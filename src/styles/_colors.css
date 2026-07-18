@@ -31,9 +31,9 @@
   --color-grey-light: #e0e0e0;
   --color-grey-dark: #1c1c1d;
   --color-grey-900: #212529;
-  --color-white: #ffffff;
+  --color-white: #fbf6ec;
   --color-black: #000000;
-  --color-code-bg-light: rgba(181, 9, 172, 0.05);
+  --color-code-bg-light: #fbf6ec;
   --color-code-bg-dark: #2c3237;
 }
 

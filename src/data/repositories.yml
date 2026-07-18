@@ -1,8 +1,8 @@
 github_users:
-  - torvalds
-  - dadangnh
+  - simonkarata
 
 github_repos:
+  - simonkarata/as-folio
   - dadangnh/as-folio
   - torvalds/linux
   - git/git
