@@ -80,15 +80,15 @@ export const site = {
 
   socials: {
     email: 'skkariuki20202gmail.com.com',
-    x_username: undefined as string | undefined,
+    x_username: 'simonkarata',
     linkedin_username: undefined as string | undefined,
     github_username: 'simonkarata',
     gitlab_username: undefined as string | undefined,
     /** Google Scholar user ID — the part after user= in your Scholar URL */
-    scholar_userid: 'qc6CJjYAAAAJ',
+    scholar_userid:undefined as string | undefined,
     orcid_id: undefined as string | undefined,
     /** Inspire HEP author ID */
-    inspire_id: '1010907',
+    inspire_id: undefined as string | undefined,
     researchgate_username: undefined as string | undefined,
     arxiv_id: undefined as string | undefined,
     youtube_id: undefined as string | undefined,
@@ -118,19 +118,19 @@ export const site = {
      */
     items: [
       { label: 'about', href: '/' },
-      { label: 'blog', href: '/blog/' },
-      { label: 'publications', href: '/publications/' },
+      { label: 'publications', href: '/publications/' },     
+       { label: 'blog', href: '/blog/' },
       { label: 'projects', href: '/projects/' },
       { label: 'repositories', href: '/repositories/' },
-      { label: 'cv', href: '/cv/' },
-      {
-        label: 'more',
-        children: [
-          { label: 'teaching', href: '/teaching/' },
-          { label: 'people', href: '/people/' },
-          { label: 'books', href: '/books/' },
-        ],
-      },
+      // { label: 'cv', href: '/cv/' },
+      // {
+      //   label: 'more',
+      //   children: [
+      //     { label: 'teaching', href: '/teaching/' },
+      //     { label: 'people', href: '/people/' },
+      //     { label: 'books', href: '/books/' },
+      //   ],
+      // },
     ] as NavItem[],
   },
 
@@ -152,7 +152,7 @@ export const site = {
      * 'normal'  — sits at the natural bottom of page content (only visible when scrolled down)
      * 'hidden'  — footer is not rendered at all
      */
-    position: 'sticky' as 'sticky' | 'normal' | 'hidden',
+    position: 'normal' as 'sticky' | 'normal' | 'hidden',
   },
 
   // ─── CV page ───────────────────────────────────────────────────────────────
@@ -213,14 +213,14 @@ export const site = {
 
   latestPosts: {
     /** Show latest blog posts section on the about page. */
-    enabled: false,
+    enabled: true,
     scrollable: true,
     limit: 3 as number | undefined,
   },
 
   selectedPapers: {
     /** Show selected publications section on the about page. */
-    enabled: true,
+    enabled: false,
   },
 
   // ─── Features ─────────────────────────────────────────────────────────────
