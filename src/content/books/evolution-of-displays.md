@@ -6,7 +6,7 @@ year: 2024
 isbn: "978-0-123456-78-9"
 olid: "OL1234567M"
 rating: 4.8
-status: "completed"
+status: "finished"
 ---
 
 # The Evolution of Displays — From CRTs to Quantum Dots

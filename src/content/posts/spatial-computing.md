@@ -1,7 +1,7 @@
 ---
 title: Spatial Computing
 description: A comprehensive overview of spatial computing, its technologies, applications, and future directions
-pubDate: 2026-08-18
+date: 2026-08-18
 lastmod: 2026-08-18
 author: as-folio
 draft: false
