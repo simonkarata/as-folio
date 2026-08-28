@@ -7,6 +7,7 @@ import { defineConfig } from 'astro/config';
 import rehypeExternalLinks from 'rehype-external-links';
 import rehypeKatex from 'rehype-katex';
 import remarkMath from 'remark-math';
+import { unified } from '@astrojs/markdown-remark';
 
 /**
  * Remark plugin: rewrite root-relative src/href inside raw HTML blocks in .md files.
@@ -78,10 +79,10 @@ export default defineConfig({
   image: {
     // Allow Astro's <Image> component to optimise images from these remote domains.
     // Used for book covers (Open Library) and GitHub stats cards.
-    domains: [
-      'covers.openlibrary.org',
-      'github-readme-stats.vercel.app',
-      'github-profile-trophy.vercel.app',
+    remotePatterns: [
+      { hostname: 'covers.openlibrary.org' },
+      { hostname: 'github-readme-stats.vercel.app' },
+      { hostname: 'github-profile-trophy.vercel.app' },
     ],
   },
   integrations: [
@@ -218,18 +219,20 @@ export default defineConfig({
     },
   },
   markdown: {
-    remarkPlugins: [remarkMath, remarkBasePaths],
-    rehypePlugins: [
-      [rehypeKatex, { strict: false }],
-      [
-        rehypeExternalLinks,
-        {
-          target: '_blank',
-          rel: ['noopener', 'noreferrer'],
-        },
+    processor: unified({
+      remarkPlugins: [remarkMath, remarkBasePaths],
+      rehypePlugins: [
+        [rehypeKatex, { strict: false }],
+        [
+          rehypeExternalLinks,
+          {
+            target: '_blank',
+            rel: ['noopener', 'noreferrer'],
+          },
+        ],
+        rehypeBasePaths,
       ],
-      rehypeBasePaths,
-    ],
+    }),
     syntaxHighlight: 'shiki',
     shikiConfig: {
       themes: {
