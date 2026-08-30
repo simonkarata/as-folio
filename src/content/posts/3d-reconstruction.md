@@ -1,11 +1,10 @@
 ---
 title: "3D Reconstruction: From Images to Digital Geometry"
 description: "A comprehensive technical overview of 3D reconstruction methods, covering structure-from-motion, depth estimation, implicit representations, and neural approaches."
-pubDate: 2026-08-29
+date: 2026-08-29
 lastmod: 2026-08-29
-author: "Simon"
 tags: ["3D reconstruction", "computer vision", "geometry", "machine learning"]
-category: "Computer Vision"
+categories: ["Computer Vision"]
 ---
 
 ## Introduction
