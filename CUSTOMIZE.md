@@ -280,7 +280,6 @@ Edit `src/data/papers.bib`. Standard BibTeX format with extra as-folio fields:
   website = {https://project-page.example.com},
 
   % ── Citation metric badges (all optional) ───────────────────────────────
-  google_scholar_id = {PAPER_ID},   % paper-level Scholar ID (from citation_for_view= in URL)
   altmetric         = {true},       % {true} uses DOI; or supply an explicit Altmetric ID
   dimensions        = {true},       % {true} uses DOI
   inspirehep_id     = {12345},      % InspireHEP literature record ID
@@ -315,7 +314,6 @@ publications: {
   badges: {
     altmetric: true,
     dimensions: true,
-    googleScholar: true,
     inspirehep: true,
   },
 
@@ -349,25 +347,6 @@ Podolsky:
 ```
 
 Supported keys per entry: `url` (profile link), `scholar` (Google Scholar ID), `orcid`.
-
-### Citation counts
-
-Citation counts for Google Scholar badges come from `src/data/citations.yml`, keyed by the `google_scholar_id` BibTeX field:
-
-```yaml
-# src/data/citations.yml — auto-generated, do not edit by hand
-qyhmnyLat1gC: 14200 # EPR paper
-```
-
-**Refreshing counts:**
-
-```bash
-yarn citations:update
-```
-
-This calls the [OpenAlex API](https://openalex.org) (free, no auth) to fetch current counts for every paper that has both `doi` and `google_scholar_id` set. Results are written back to `citations.yml`.
-
-`citations.yml` is also refreshed automatically before every production build (`prebuild` hook) and by the weekly GitHub Actions workflow (`.github/workflows/update-citations.yml`). The workflow commits the updated file back to the repo if any counts changed.
 
 ---
 

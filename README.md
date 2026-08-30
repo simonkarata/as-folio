@@ -29,7 +29,7 @@
 
 ## Features
 
-- **Publications** — BibTeX bibliography with configurable author highlighting, abstract toggles, and Altmetric/Dimensions/Google Scholar badges
+- **Publications** — BibTeX bibliography with configurable author highlighting, abstract toggles, and Altmetric/Dimensions badges
 - **Blog** — MDX posts with math (KaTeX), syntax highlighting, reading progress bar, table of contents, image zoom, related posts, year-grouped listings, and draft post support
 - **Projects** — Card grid with category groupings, live GitHub star counts, and project detail pages with inline citations
 - **CV** — Supports both RenderCV YAML and JSONResume JSON formats, with PDF download
@@ -164,13 +164,10 @@ src/
 ├── data/
 │   ├── papers.bib       ← BibTeX bibliography
 │   ├── coauthors.yml    ← co-author profile links
-│   ├── citations.yml    ← citation counts (auto-updated)
 │   ├── cv.yml           ← RenderCV format CV
 │   ├── resume.json      ← JSONResume format CV
 │   └── repositories.yml ← GitHub repos config
 ├── pages/               ← Astro pages (rarely need editing)
-scripts/
-└── update-citations.ts  ← fetches citation counts from OpenAlex
 ```
 
 ---
@@ -221,14 +218,11 @@ Add an entry to `src/data/papers.bib`:
   html             = {https://doi.org/...},
 
   % citation metric badges (all optional):
-  google_scholar_id = {YOUR_PAPER_ID},  % from Scholar URL citation_for_view=...
   altmetric        = {true},            % true = use DOI; or explicit Altmetric ID
   dimensions       = {true},            % true = use DOI
   inspirehep_id    = {12345},           % InspireHEP literature record ID
 }
 ```
-
-Citation counts for `google_scholar_id` entries are stored in `src/data/citations.yml` and refreshed automatically on every deploy (via the pre-build script) or on demand with `yarn citations:update`.
 
 ### Project
 

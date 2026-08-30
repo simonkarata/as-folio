@@ -64,15 +64,7 @@ yarn format         # Prettier
   - `getCleanBibtex(entry)` — returns a citation-safe BibTeX string with internal fields stripped
 - `src/data/papers.bib` — Einstein demo papers
 - `src/data/coauthors.yml` — co-author profile links; format: `LastName: { url, scholar, orcid }`
-- `src/data/citations.yml` — citation counts keyed by `google_scholar_id`; auto-updated by `scripts/update-citations.ts`
 - Never fetch BibTeX at runtime; always parse at build time in `getStaticPaths` or page frontmatter
-
-### Citations update script
-
-- `scripts/update-citations.ts` — fetches citation counts from the OpenAlex API (by DOI) and writes `src/data/citations.yml`
-- Run manually: `yarn citations:update`
-- Runs automatically as `prebuild` before every `yarn build`
-- GitHub Actions workflow (`.github/workflows/update-citations.yml`) also runs this weekly and commits the result
 
 ### Analytics
 

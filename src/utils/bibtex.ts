@@ -175,7 +175,6 @@ export const BIBTEX_INTERNAL_FIELDS = new Set([
   'blog',
   'code',
   'dimensions',
-  'google_scholar_id',
   'html',
   'inspirehep_id',
   'pdf',

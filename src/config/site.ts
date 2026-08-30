@@ -342,7 +342,6 @@ export const site = {
     badges: {
       altmetric: true,
       dimensions: true,
-      googleScholar: true,
       inspirehep: true,
     },
     /**

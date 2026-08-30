@@ -7,7 +7,6 @@ import { withBase } from '@utils/base';
 import { getAuthors, getTitle, getVenue, parseBibtex } from '@utils/bibtex';
 import yaml from 'js-yaml';
 
-import citationsRaw from '../../data/citations.yml?raw';
 import coauthorsRaw from '../../data/coauthors.yml?raw';
 import bibRaw from '../../data/papers.bib?raw';
 
@@ -18,7 +17,6 @@ const entries = parseBibtex(bibRaw).sort((a, b) => {
 });
 
 const coauthors = (yaml.load(coauthorsRaw) ?? {}) as CoauthorMap;
-const citations = (yaml.load(citationsRaw) ?? {}) as Record<string, number>;
 
 const showAltmetric = site.publications.badges.altmetric;
 const showDimensions = site.publications.badges.dimensions;
@@ -28,7 +26,6 @@ const authorLastName = site.publications.authorLastName ?? site.author.name.spli
 const { labels } = site.publications;
 const previewDir = withBase(site.publications.previewDir);
 const pdfDir = withBase(site.publications.pdfDir);
-const scholarUserId = site.socials.scholar_userid ?? '';
 const badges = site.publications.badges;
 ---
 
@@ -82,8 +79,6 @@ const badges = site.publications.badges;
         labels={labels}
         detailBase={site.base}
         coauthors={coauthors}
-        citations={citations}
-        scholarUserId={scholarUserId}
         badges={badges}
       />
     </article>

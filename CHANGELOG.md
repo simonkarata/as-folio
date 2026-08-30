@@ -34,7 +34,6 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 * add pseudocode support with KaTeX and MathJax integration, and enhance breadcrumb navigation ([fff2630](https://github.com/dadangnh/as-folio/commit/fff26307eed17d0611a96e523c99e5619a2f7c72))
 * add smoke tests, JSON schemas, and utility tests for improved validation and coverage ([d457799](https://github.com/dadangnh/as-folio/commit/d4577994a898748a8384019ae1e4a6186b169ff2))
 * add styled tooltips for interactive annotations and icons ([611bff7](https://github.com/dadangnh/as-folio/commit/611bff7bac3ee389d88e6e1a4763a1f6aa280874))
-* automate citation updates with OpenAlex integration and GitHub Actions workflow ([a5f4181](https://github.com/dadangnh/as-folio/commit/a5f4181376bf82787131742a58353b164d7f2c05))
 * bundle KaTeX CSS locally and enhance Shiki dark mode styles ([e68761a](https://github.com/dadangnh/as-folio/commit/e68761aff54cab3283fcf36c81239e985e6740dc))
 * enhance as-folio features with dark mode, selected publications, and external posts integration ([738315b](https://github.com/dadangnh/as-folio/commit/738315bcff30d9b7c51e4f3dc7255f6a58a621e6))
 * enhance blog structure with pagination, tag/category pages, and social sharing ([dfec5ea](https://github.com/dadangnh/as-folio/commit/dfec5ea15caf43a2a142d3605289c82192e19fec))
@@ -75,7 +74,7 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Features
 
-- Publications page with BibTeX parser, author highlighting, citation badges (Altmetric, Dimensions, Google Scholar, InspireHEP), co-author profile links, and auto-updated citation counts via OpenAlex
+- Publications page with BibTeX parser, author highlighting, citation badges (Altmetric, Dimensions, InspireHEP), and co-author profile links
 - Blog with MDX, KaTeX math, syntax highlighting, reading time, table of contents, image zoom, related posts, year groupings, draft support, and per-post CDN widgets (Mermaid, Chart.js, ECharts, Vega, Plotly, Pseudocode, TikzJax, Leaflet, img-comparison-slider, diff2html, PhotoSwipe)
 - Projects card grid with GitHub star counts, category groupings, and project detail pages
 - CV page supporting RenderCV YAML and JSONResume JSON formats with PDF download

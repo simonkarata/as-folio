@@ -15,7 +15,6 @@ import {
 } from '@utils/bibtex';
 import yaml from 'js-yaml';
 
-import citationsRaw from '../../data/citations.yml?raw';
 import coauthorsRaw from '../../data/coauthors.yml?raw';
 import bibRaw from '../../data/papers.bib?raw';
 
@@ -51,12 +50,10 @@ const award = entry.fields.award;
 const awardName = entry.fields.award_name;
 const annotation = entry.fields.annotation;
 const additionalInfo = entry.fields.additional_info;
-const googleScholarId = entry.fields.google_scholar_id;
 const inspirehepId = entry.fields.inspirehep_id;
 const altmetricField = entry.fields.altmetric;
 const dimensionsField = entry.fields.dimensions;
 const pdfDir = withBase(site.publications.pdfDir);
-const scholarUserId = site.socials.scholar_userid ?? '';
 
 const pdfHref = pdfPath
   ? pdfPath.startsWith('http')
@@ -75,26 +72,6 @@ const coauthors = (yaml.load(coauthorsRaw) ?? {}) as CoauthorMap;
 const authorLastName = site.publications.authorLastName ?? site.author.name.split(' ').pop() ?? '';
 const authorLinks = linkAuthors(authorsRaw.split(', '), coauthors, authorLastName);
 
-// Google Scholar badge — two variants for light/dark theme
-const citations = (yaml.load(citationsRaw) ?? {}) as Record<string, number>;
-const scholarCount = googleScholarId ? citations[googleScholarId] : undefined;
-const scholarLabel =
-  scholarCount !== undefined
-    ? scholarCount >= 1000
-      ? `${Math.round(scholarCount / 100) / 10}K`
-      : String(scholarCount)
-    : 'cite';
-const scholarProfileUrl =
-  googleScholarId && scholarUserId
-    ? `https://scholar.google.com/citations?view_op=view_citation&hl=en&user=${scholarUserId}&citation_for_view=${scholarUserId}:${googleScholarId}`
-    : undefined;
-const scholarBadgeLight = scholarProfileUrl
-  ? `https://img.shields.io/badge/scholar-${encodeURIComponent(scholarLabel)}-4285F4?logo=googlescholar&labelColor=f6f8fa&style=flat`
-  : undefined;
-const scholarBadgeDark = scholarProfileUrl
-  ? `https://img.shields.io/badge/scholar-${encodeURIComponent(scholarLabel)}-4c8bf5?logo=googlescholar&labelColor=21262d&logoColor=8ab4f8&style=flat`
-  : undefined;
-
 // Altmetric: explicit ID overrides DOI/arXiv when value is not "true"
 const altmetricExplicitId =
   altmetricField && altmetricField !== 'true' ? altmetricField : undefined;
@@ -104,13 +81,8 @@ const showAltmetric = !!(
   (altmetricExplicitId || doi || arxiv)
 );
 const showDimensions = !!(site.publications.badges.dimensions && dimensionsField && doi);
-const showGoogleScholar = !!(
-  site.publications.badges.googleScholar &&
-  googleScholarId &&
-  scholarUserId
-);
 const showInspireHEP = !!(site.publications.badges.inspirehep && inspirehepId);
-const hasBadges = showAltmetric || showDimensions || showGoogleScholar || showInspireHEP;
+const hasBadges = showAltmetric || showDimensions || showInspireHEP;
 
 const bibtexBlock = getCleanBibtex(entry);
 
@@ -360,37 +332,6 @@ const breadcrumbLd = {
                 data-legend="hover-right"
                 data-style="small_rectangle"
               />
-            )}
-            {showGoogleScholar && scholarBadgeLight && scholarBadgeDark && scholarProfileUrl && (
-              <a
-                href={scholarProfileUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                style="line-height:0"
-              >
-                <img
-                  src={scholarBadgeLight}
-                  alt={
-                    scholarCount !== undefined
-                      ? `Google Scholar: ${scholarCount} citations`
-                      : 'Google Scholar'
-                  }
-                  class="only-light"
-                  loading="lazy"
-                  style="height:20px;vertical-align:middle"
-                />
-                <img
-                  src={scholarBadgeDark}
-                  alt={
-                    scholarCount !== undefined
-                      ? `Google Scholar: ${scholarCount} citations`
-                      : 'Google Scholar'
-                  }
-                  class="only-dark"
-                  loading="lazy"
-                  style="height:20px;vertical-align:middle"
-                />
-              </a>
             )}
             {showInspireHEP && inspirehepId && (
               <InspireHEPBadge client:load inspirehepId={inspirehepId} />

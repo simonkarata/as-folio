@@ -224,7 +224,7 @@ search, year filtering, and expandable abstract/BibTeX panels.
 - `entries: BibEntry[]` — Parsed BibTeX entries
 - `authorLastName?: string` — Name to bold in author lists
 - `labels: { abstract, bibtex, supp, searchPlaceholder, noResults }` — UI labels
-- `badges: { altmetric, dimensions, googleScholar, inspirehep }` — Badge visibility
+- `badges: { altmetric, dimensions, inspirehep }` — Badge visibility
 - `maxAuthorLimit?: number` — Truncate long author lists
 - `thumbnails?: boolean` — Show preview images
 - `previewDir?: string` — Path prefix for preview images
@@ -234,14 +234,13 @@ search, year filtering, and expandable abstract/BibTeX panels.
 ---
 
 ### `BadgeSet.astro`
-Renders Altmetric, Dimensions, Google Scholar, and InspireHEP badge iframes for a
-publication.
+Renders Altmetric, Dimensions, and InspireHEP badge iframes for a publication.
 
 **Props:**
 - `doi?: string`
 - `scholarId?: string`
 - `inspireId?: string`
-- `badges: { altmetric, dimensions, googleScholar, inspirehep }`
+- `badges: { altmetric, dimensions, inspirehep }`
 
 ---
 

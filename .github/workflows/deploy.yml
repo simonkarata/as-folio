@@ -39,18 +39,6 @@ jobs:
           ASTRO_SITE: ${{ vars.ASTRO_SITE || 'https://simonkarata.github.io' }}
           ASTRO_BASE: ${{ vars.ASTRO_BASE || '/as-folio' }}
 
-      - name: Commit updated citations.yml
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add src/data/citations.yml
-          if git diff --cached --quiet; then
-            echo "No citation changes to commit."
-          else
-            git commit -m "chore: update citation counts [skip ci]"
-            git push
-          fi
-
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist/

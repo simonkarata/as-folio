@@ -12,7 +12,6 @@ import {
   getYear,
 } from '../../utils/bibtex';
 import { BadgeSet } from './BadgeSet';
-import { GoogleScholarBadge } from './GoogleScholarBadge';
 import { InspireHEPBadge } from './InspireHEPBadge';
 
 interface Labels {
@@ -26,7 +25,6 @@ interface Labels {
 interface BadgeConfig {
   altmetric: boolean;
   dimensions: boolean;
-  googleScholar: boolean;
   inspirehep: boolean;
 }
 
@@ -46,10 +44,6 @@ interface Props {
   detailBase?: string;
   /** Parsed coauthors.yml — used to link co-author names to their profiles. */
   coauthors?: CoauthorMap;
-  /** google_scholar_id → citation count (from citations.yml). */
-  citations?: Record<string, number>;
-  /** Google Scholar user ID for badge profile links (site.socials.scholar_userid). */
-  scholarUserId?: string;
   /** Badge visibility flags from site.publications.badges. */
   badges?: BadgeConfig;
 }
@@ -70,8 +64,6 @@ function PublicationEntry({
   labels = {},
   detailBase,
   coauthors = {},
-  citations = {},
-  scholarUserId = '',
   badges,
 }: {
   entry: BibEntry;
@@ -83,8 +75,6 @@ function PublicationEntry({
   labels?: Labels;
   detailBase?: string;
   coauthors?: CoauthorMap;
-  citations?: Record<string, number>;
-  scholarUserId?: string;
   badges?: BadgeConfig;
 }) {
   const [abstractOpen, setAbstractOpen] = useState(false);
@@ -118,7 +108,6 @@ function PublicationEntry({
   const additionalInfo = entry.fields.additional_info ?? '';
 
   // Badge fields
-  const googleScholarId = entry.fields.google_scholar_id ?? '';
   const inspirehepId = entry.fields.inspirehep_id ?? '';
   const altmetricField = entry.fields.altmetric ?? '';
   const dimensionsField = entry.fields.dimensions ?? '';
@@ -130,9 +119,8 @@ function PublicationEntry({
 
   const showAltmetric = !!(badges?.altmetric && altmetricField && hasAltmetricSource);
   const showDimensions = !!(badges?.dimensions && dimensionsField && doi);
-  const showGoogleScholar = !!(badges?.googleScholar && googleScholarId && scholarUserId);
   const showInspireHEP = !!(badges?.inspirehep && inspirehepId);
-  const hasBadges = showAltmetric || showDimensions || showGoogleScholar || showInspireHEP;
+  const hasBadges = showAltmetric || showDimensions || showInspireHEP;
 
   // Author links with coauthor URL and self-identification
   const authorLinks = useMemo(
@@ -151,8 +139,6 @@ function PublicationEntry({
   const suppHref = supp.startsWith('http') ? supp : `${pdfDir}${supp}`;
   const slidesHref = slides.startsWith('http') ? slides : `${pdfDir}${slides}`;
   const posterHref = poster.startsWith('http') ? poster : `${pdfDir}${poster}`;
-
-  const scholarCount = googleScholarId ? citations[googleScholarId] : undefined;
 
   return (
     <li>
@@ -409,13 +395,6 @@ function PublicationEntry({
                 showAltmetric={showAltmetric}
                 showDimensions={showDimensions}
               />
-              {showGoogleScholar && (
-                <GoogleScholarBadge
-                  scholarUserId={scholarUserId}
-                  googleScholarId={googleScholarId}
-                  count={scholarCount}
-                />
-              )}
               {showInspireHEP && <InspireHEPBadge inspirehepId={inspirehepId} />}
             </div>
           )}

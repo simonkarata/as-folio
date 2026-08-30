@@ -76,7 +76,7 @@ The GitHub Actions workflow runs automatically on every push to `main`.
 
 Check progress in the **Actions** tab under **Deploy to GitHub Pages**.
 
-Build takes about 90-120 seconds. The first step fetches citation counts from OpenAlex,
+Build takes about 90-120 seconds.
 which adds a few seconds but requires no configuration.
 
 ---
