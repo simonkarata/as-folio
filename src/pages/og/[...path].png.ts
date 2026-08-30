@@ -19,19 +19,25 @@ import satori from 'satori';
 
 // Load fonts once at module level (build-time only — never runs in the browser)
 const fontRoot = resolve('node_modules/@fontsource/roboto/files');
-const fontRegular = readFileSync(resolve(fontRoot, 'roboto-latin-400-normal.woff'));
-const fontBold = readFileSync(resolve(fontRoot, 'roboto-latin-700-normal.woff'));
+const fontRegularBuffer = readFileSync(resolve(fontRoot, 'roboto-latin-400-normal.woff'));
+const fontBoldBuffer = readFileSync(resolve(fontRoot, 'roboto-latin-700-normal.woff'));
 
 const FONTS = [
   {
     name: 'Roboto',
-    data: fontRegular.buffer as ArrayBuffer,
+    data: new Uint8Array(fontRegularBuffer).buffer.slice(
+      0,
+      new Uint8Array(fontRegularBuffer).byteLength,
+    ) as ArrayBuffer,
     weight: 400 as const,
     style: 'normal' as const,
   },
   {
     name: 'Roboto',
-    data: fontBold.buffer as ArrayBuffer,
+    data: new Uint8Array(fontBoldBuffer).buffer.slice(
+      0,
+      new Uint8Array(fontBoldBuffer).byteLength,
+    ) as ArrayBuffer,
     weight: 700 as const,
     style: 'normal' as const,
   },
