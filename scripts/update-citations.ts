@@ -31,7 +31,7 @@ const REQUEST_DELAY_MS = 500;
  * Contact email for OpenAlex's "polite pool" (higher rate limits, lower
  * chance of throttling). Replace with your own address before deploying.
  */
-const POLITE_POOL_EMAIL = undefined;
+const POLITE_POOL_EMAIL = skkariuki2020@gmail.com;
 
 // ─── Paths ────────────────────────────────────────────────────────────────────
 
