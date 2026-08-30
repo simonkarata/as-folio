@@ -31,7 +31,7 @@ const REQUEST_DELAY_MS = 500;
  * Contact email for OpenAlex's "polite pool" (higher rate limits, lower
  * chance of throttling). Replace with your own address before deploying.
  */
-const POLITE_POOL_EMAIL = 'hello@example.com';
+const POLITE_POOL_EMAIL = undefined;
 
 // ─── Paths ────────────────────────────────────────────────────────────────────
 
@@ -54,11 +54,13 @@ async function fetchCitationCount(doi: string): Promise<number | null> {
   const encoded = encodeURIComponent(`https://doi.org/${doi}`);
   const url = `https://api.openalex.org/works/${encoded}?select=cited_by_count,display_name`;
   try {
-    const res = await fetch(url, {
-      headers: {
-        'User-Agent': `as-folio/1.0 (mailto:${POLITE_POOL_EMAIL})`,
-      },
-    });
+    const headers = POLITE_POOL_EMAIL
+      ? {
+          'User-Agent': `as-folio/1.0 (mailto:${POLITE_POOL_EMAIL})`,
+        }
+      : undefined;
+
+    const res = await fetch(url, { headers });
     if (res.status === 404) return null;
     if (!res.ok) {
       console.warn(`  ⚠ OpenAlex returned HTTP ${res.status} for DOI ${doi}`);
