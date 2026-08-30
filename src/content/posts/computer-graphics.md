@@ -1,10 +1,16 @@
 ---
 title: 'Computer Graphics'
-author: 'John F. Hughes, Andries van Dam, Morgan McGuire, David F. Sklar, Steven Kurtz, James D. Foley'
-status: interested
-released: 2014
-categories: computer graphics, rendering, visualization
-importance: 4
+description: How processors, memory, storage, and input-output systems work together to execute programs
+date: 2026-08-26
+author: as-folio
+draft: false
+tags:
+  - computer-architecture
+  - processors
+  - memory
+  - systems
+  - computing
+---
 ---
 
 Computer graphics is the study of how to create, process, and display images with computers.

@@ -5,7 +5,7 @@ isbn: 9780262047929
 status: interested
 stars: 4
 released: 2024
-categories: quantum-computing computer-science physics
+date: 2026-08-26
 ---
 
 An accessible exploration of quantum computing fundamentals, applications, and the future of quantum technology. This book bridges the gap between quantum mechanics theory and practical quantum computing implementations, suitable for both beginners and those with foundational physics knowledge.

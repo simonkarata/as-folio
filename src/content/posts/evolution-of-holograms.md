@@ -3,6 +3,7 @@ title: "The Evolution of Holograms"
 summary: "A concise exploration of how holography evolved from optical experiments to immersive display technologies."
 author: "Anonymous"
 cover: "/assets/img/book_covers/default-book-cover.jpg"
+date: 2026-08-26
 ---
 
 # The Evolution of Holograms

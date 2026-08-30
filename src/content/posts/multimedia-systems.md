@@ -3,7 +3,7 @@ title: 'Multimedia Systems'
 author: 'Various'
 status: interested
 released: 2024
-categories: multimedia, technology, systems, digital
+date: 2026-08-26
 importance: 5
 ---
 

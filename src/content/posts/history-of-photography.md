@@ -3,7 +3,7 @@ title: 'History of Photography'
 author: 'Various'
 status: interested
 released: 2024
-categories: photography, visual culture, history
+date: 2026-08-26
 importance: 5
 ---
 

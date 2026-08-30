@@ -3,7 +3,7 @@ title: 'History and Evolution of Music'
 author: 'Various'
 status: interested
 released: 2024
-categories: music, history, culture
+date: 2026-08-26
 importance: 5
 ---
 

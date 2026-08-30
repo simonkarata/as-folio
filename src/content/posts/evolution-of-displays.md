@@ -3,6 +3,7 @@ title: "The Evolution of Displays — From CRTs to Quantum Dots"
 summary: "A comprehensive exploration of display technology evolution, covering cathode ray tubes, flat panels, LCD, OLED, and emerging technologies that have shaped how we see the digital world."
 author: "Technology Historian"
 year: 2024
+date: 2026-08-26
 isbn: "978-0-123456-78-9"
 olid: "OL1234567M"
 rating: 4.8
