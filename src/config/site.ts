@@ -44,7 +44,7 @@ export const site = {
 
   author: {
     /** Full name shown in navbar, about page heading, and footer. */
-    name: 'Karata',
+    // name: 'Karata',
 
     /** Short email address (used in social links). */
     email: 'skkariuki2020@gmail.com',
@@ -118,10 +118,10 @@ export const site = {
      */
     items: [
       { label: 'about', href: '/' },
-      { label: 'publications', href: '/publications/' },     
+      // { label: 'publications', href: '/publications/' },     
        { label: 'blog', href: '/blog/' },
-      { label: 'projects', href: '/projects/' },
-      { label: 'repositories', href: '/repositories/' },
+      // { label: 'projects', href: '/projects/' },
+      // { label: 'repositories', href: '/repositories/' },
       // { label: 'cv', href: '/cv/' },
       // {
       //   label: 'more',
@@ -175,12 +175,12 @@ export const site = {
     name: 'Blog',
     description: 'My take on a thing or two about things',
     /** Number of posts per page. */
-    postsPerPage: 5,
+    postsPerPage: 10,
     /**
      * Tags shown as badges on the blog listing page header.
      * Users can click them to filter posts by tag.
      */
-    displayTags: ['formatting', 'images', 'links', 'math', 'code', 'blockquotes'],
+    displayTags: ['cameras', 'displays', 'computing', 'optics', 'code', 'blockquotes'],
     /** Categories shown as badges on the blog listing page header. */
     displayCategories: [] as string[],
     /**
