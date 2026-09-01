@@ -44,7 +44,7 @@ export const site = {
 
   author: {
     /** Full name shown in navbar, about page heading, and footer. */
-    // name: 'Karata',
+    name: 'Simon Karata',
 
     /** Short email address (used in social links). */
     email: 'skkariuki2020@gmail.com',
