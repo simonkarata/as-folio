@@ -1,5 +1,5 @@
 ---
-title: Brain-Computer Interfaces: From Neural Signals to Action
+title: "Brain-Computer Interfaces: From Neural Signals to Action"
 date: 2026-09-12
 description: How brain-computer interfaces turn patterns of neural activity into useful commands, and why the hardest problems are still biological, practical, and ethical.
 tags: [brain-computer interfaces, neuroscience, machine learning, assistive technology]
