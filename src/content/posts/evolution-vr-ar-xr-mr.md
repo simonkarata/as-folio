@@ -3,7 +3,7 @@ title: "Evolution of VR/AR/XR/MR"
 author: ""
 status: interested
 released: 2026
-date: 2026-08-26
+date: 2026-05-25
 importance: 5
 ---
 

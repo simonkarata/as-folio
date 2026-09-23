@@ -1,7 +1,7 @@
 ---
 title: Smart Homes and the Next Layer of Everyday Technology
 description: How connected devices are changing homes, from automation and energy management to privacy and interoperability
-date: 2026-09-09
+date: 2026-02-09
 author: as-folio
 draft: false
 tags:

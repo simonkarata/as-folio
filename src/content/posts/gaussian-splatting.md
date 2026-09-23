@@ -1,7 +1,7 @@
 ---
 title: Gaussian Splatting
 description: How 3D Gaussian Splatting represents and renders real-world scenes for fast, photorealistic novel-view synthesis
-date: 2026-08-19
+date: 2025-05-19
 author: as-folio
 draft: false
 math: true

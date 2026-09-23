@@ -1,7 +1,7 @@
 ---
 title: Lighting in 3D Scanning
 description: Why illumination quality, exposure, and scene control determine whether a scan becomes accurate geometry or a noisy artifact
-date: 2026-09-19
+date: 2025-03-19
 author: as-folio
 draft: false
 tags:

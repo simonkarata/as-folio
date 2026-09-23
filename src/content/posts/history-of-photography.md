@@ -3,7 +3,7 @@ title: 'History of Photography'
 author: 'Various'
 status: interested
 released: 2024
-date: 2026-08-26
+date: 2025-12-10
 importance: 5
 ---
 

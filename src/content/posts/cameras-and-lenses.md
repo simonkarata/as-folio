@@ -1,7 +1,7 @@
 ---
 title: 'Cameras and Lenses'
 description: How light, optics, and exposure work together to turn a scene into an image
-date: 2026-09-14
+date: 2024-02-14
 author: as-folio
 draft: false
 tags:

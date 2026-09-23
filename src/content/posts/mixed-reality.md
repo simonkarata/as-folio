@@ -1,7 +1,7 @@
 ---
 title: Mixed Reality
 description: How mixed reality connects physical environments and digital objects through spatial understanding and responsive interaction
-date: 2026-08-25
+date: 2025-05-25
 author: as-folio
 draft: false
 tags:

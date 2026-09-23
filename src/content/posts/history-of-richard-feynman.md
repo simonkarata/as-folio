@@ -2,7 +2,7 @@
 title: The History of Richard Feynman
 description: A comprehensive overview of Richard Feynman's life, scientific contributions, and enduring legacy
 date: 2026-08-16
-lastmod: 2026-08-16
+lastmod: 2026-02-01
 tags:
   - physics
   - history

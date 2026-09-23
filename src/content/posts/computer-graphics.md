@@ -1,7 +1,7 @@
 ---
 title: 'Computer Graphics'
 description: How processors, memory, storage, and input-output systems work together to execute programs
-date: 2026-08-26
+date: 2024-11-13
 author: as-folio
 draft: false
 tags:

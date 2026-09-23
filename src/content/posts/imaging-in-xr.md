@@ -1,6 +1,6 @@
 ---
 title: Imaging in XR
-date: 2026-09-10
+date: 2025-09-10
 description: Imaging is the foundation of XR systems—driving scene understanding, spatial tracking, lens correction, and more natural interaction across virtual, augmented, and mixed reality.
 tags: [XR, imaging, computer vision, spatial computing, display]
 categories: [research]

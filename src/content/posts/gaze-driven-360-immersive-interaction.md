@@ -1,6 +1,6 @@
 ---
 title: Real-Time Multi-User Gaze Interaction for Immersive 360° Environments
-date: 2026-08-09
+date: 2026-01-09
 description: A wearable gaze-driven interaction system for large-scale immersive 360° museum displays, supporting four users with marker-free calibration and low-light robustness.
 tags: [gaze, immersive, interaction, museum, visualization]
 categories: [demo]

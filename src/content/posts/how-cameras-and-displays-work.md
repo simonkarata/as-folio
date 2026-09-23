@@ -1,7 +1,7 @@
 ---
 title: How Cameras and Displays Work
 description: From photons and lenses to pixels, color, refresh, and the images we see on screens
-date: 2026-08-27
+date: 2025-12-14
 author: as-folio
 draft: false
 tags:

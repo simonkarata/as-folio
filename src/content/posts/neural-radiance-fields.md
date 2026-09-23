@@ -1,7 +1,7 @@
 ---
 title: Neural Radiance Fields (NeRFs)
 description: How neural radiance fields learn 3D scenes from images and render photorealistic novel views
-date: 2026-08-21
+date: 2025-05-21
 author: as-folio
 draft: false
 math: true
