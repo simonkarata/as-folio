@@ -56,17 +56,15 @@ export const site = {
      * Subtitle below your name on the about page.
      * HTML is supported.
      */
-    subtitle: `Graphics Researcher
+    subtitle: `Spatial Computing Researcher
       &nbsp;·&nbsp;
-      <a href="https://en.wikipedia.org/wiki/3D_computer_graphics">3D Computer Graphics</a>,
-      Nairobi`,
+      <a href="https://en.wikipedia.org/wiki/3D_scanning">3D Scanning</a>`,
 
     /**
      * Address block below profile photo.
      * HTML is supported.
      */
-    moreInfo: `<p>3D Computer Graphics</p>
-      <p>Web Design Studio</p>
+    moreInfo: `<p>Neurotechnology|</p>
       <p>Smart Homes</p>`,
   },
 
