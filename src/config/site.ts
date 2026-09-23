@@ -35,7 +35,7 @@ export const site = {
   title: 'Simon Karata',
 
   /** Site description. Used in meta tags. */
-  description: 'I bridge the gap between algorithmic precision and brand storytelling. Specializing in 3D reconstruction, real-time rendering, and high-impact web experiences.',
+  description: 'Working on assistive technologies, 3D reconstruction, spatial computing, neurotechnology.',
 
   /** Language code for the site. */
   lang: 'en',
