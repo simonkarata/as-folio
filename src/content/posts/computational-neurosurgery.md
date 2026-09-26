@@ -1,5 +1,5 @@
 ---
-title: Computational Neurosurgery: From Images to Informed Decisions
+title: Computational Neurosurgery From Images to Informed Decisions
 date: 2026-09-25
 description: How imaging, mathematical models, and data-driven tools support neurosurgical planning and care, while keeping uncertainty and clinical judgment in view.
 tags: [computational neurosurgery, neuroscience, medical imaging, artificial intelligence, healthcare]
