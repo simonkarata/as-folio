@@ -1,5 +1,5 @@
 /**
- * as-folio site configuration
+ * portfolio site configuration
  *
  * This file replaces _config.yml from al-folio.
  * Update the values below to personalize your site.
@@ -44,7 +44,7 @@ export const site = {
 
   author: {
     /** Full name shown in navbar, about page heading, and footer. */
-    name: 'Simon Karata',
+    name: ' ',
 
     /** Short email address (used in social links). */
     email: 'skkariuki2020@gmail.com',
@@ -64,8 +64,7 @@ export const site = {
      * Address block below profile photo.
      * HTML is supported.
      */
-    moreInfo: `<p>Neurotechnology|</p>
-      <p>Smart Homes</p>`,
+    moreInfo: `<p>Neurotechnology | Smart Homes</p>`,
   },
 
   // ─── Social links ──────────────────────────────────────────────────────────
@@ -240,7 +239,7 @@ export const site = {
      *  When false, the browser's native title-attribute tooltip is used instead. */
     tooltips: false,
     /** Enable GDPR-compliant cookie consent dialog. */
-    cookieConsent: false,
+    cookieConsent: true,
     /** Enable newsletter subscription form. */
     newsletter: false,
     /**
