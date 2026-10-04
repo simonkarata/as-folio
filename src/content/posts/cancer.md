@@ -2,7 +2,7 @@
 title: Cancer
 description: Introduction, stages, type and treatment 
 date: 2026-10-04
-author: as-folio
+author: simon
 draft: false
 tags:
   - cancer
