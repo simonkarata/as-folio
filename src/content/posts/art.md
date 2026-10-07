@@ -1,10 +1,15 @@
 ---
 title: 'History of Art'
-author: 'Various'
-status: interested
-released: 2024
-date: 2025-12-31
-importance: 5
+description: How generations expressed the unexpressed
+date: 2026-07-09
+author: simon
+draft: false
+tags:
+  - renaissnace
+  - surrrealism
+  - cubism
+  - portraits
+  - pop art
 ---
 
 The history of art traces how humans have used images, objects, and spaces to express ideas, beliefs, and emotions across time. From prehistoric cave painting to contemporary installation art, artistic traditions reflect the values and concerns of the societies that created them.

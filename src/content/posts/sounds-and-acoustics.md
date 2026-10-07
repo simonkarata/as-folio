@@ -2,7 +2,7 @@
 title: Sounds and Acoustics
 description: How vibration, waves, and room design shape the way we hear and experience sound
 date: 2026-07-09
-author: as-folio
+author: simon
 draft: false
 tags:
   - sound

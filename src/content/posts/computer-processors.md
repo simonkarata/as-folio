@@ -1,8 +1,8 @@
 ---
-title: The Evolution of Computer Processors
+title:  Computer Processors
 description: From vacuum tubes and early microprocessors to multicore CPUs, GPUs, and chiplet-based systems
 date: 2026-09-30
-author: as-folio
+author: simon
 draft: false
 tags:
   - processors

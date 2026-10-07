@@ -1,10 +1,16 @@
 ---
 title: 'Multimedia Systems'
-author: 'Various'
-status: interested
-released: 2024
-date: 2025-03-26
-importance: 5
+description: How representations of real-world scenes happen 
+date: 2025-05-19
+author: simon
+draft: false
+math: true
+tags:
+  - text
+  - images
+  - video
+  - graphics
+  - computer generated media
 ---
 
 Multimedia systems represent the integration of multiple forms of media—including text, graphics, audio, video, and interactive elements—within a unified computational framework. These systems have become fundamental to modern digital communication, entertainment, education, and business applications.
@@ -70,3 +76,12 @@ Emerging technologies continue to reshape multimedia systems:
 **Sustainable Multimedia** — As the environmental impact of data centers and digital infrastructure grows, attention to energy-efficient multimedia systems and sustainable practices becomes increasingly important.
 
 Multimedia systems continue to evolve as a foundational technology shaping how humans create, share, and experience information in the digital age.
+
+## Computer Graphics
+Computer graphics is the study of how to create, process, and display images with computers.
+It spans the full pipeline from geometric modeling and transformations to rasterization,
+shading, lighting, and image synthesis.
+
+The field is central to video games, animation, scientific visualization, virtual reality,
+and modern user interfaces. A strong understanding of computer graphics combines math,
+physics, and software engineering to turn abstract data into compelling visual experiences.

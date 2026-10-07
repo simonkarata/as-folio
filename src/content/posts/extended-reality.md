@@ -1,10 +1,15 @@
 ---
-title: "Evolution of VR/AR/XR/MR"
-author: ""
-status: interested
-released: 2026
-date: 2026-05-25
-importance: 5
+title: Extended Reality
+description: computer generated media with interactive elements and intergrated functionality
+date: 2026-07-09
+author: simon
+draft: false
+tags:
+  - AR
+  - VR
+  - MR
+  - spatial computing
+  - holograms
 ---
 
 This essay traces the evolution of Virtual Reality (VR), Augmented Reality (AR), Mixed Reality (MR), and Extended Reality (XR). It covers definitions, historical milestones, key technological drivers, applications, societal impacts, and likely near-term futures.

@@ -3,7 +3,7 @@ title: 3D Scanning From Physical Objects to Digital Models
 description: How cameras, depth sensors, and reconstruction algorithms capture the shape and appearance of the physical world.
 date: 2026-09-27
 lastmod: 2026-09-27
-author: as-folio
+author: simon
 draft: false
 tags:
   - 3d-scanning

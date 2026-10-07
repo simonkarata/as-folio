@@ -2,8 +2,9 @@
 title: Neurotechnology
 description: How brain science, computation, and engineering are creating new ways to understand and interact with the nervous system
 date: 2026-09-08
-author: as-folio
+author: simon
 draft: false
+toc: true
 tags:
   - neurotechnology
   - neuroscience
@@ -62,6 +63,8 @@ BCIs generally require calibration. The system learns how a person's neural patt
 For someone who cannot speak or move easily, even a modest increase in communication speed can be transformative. A BCI does not need to reproduce every aspect of natural movement to be useful. Predictable control, a clear interface, and low mental effort may matter more than maximum theoretical accuracy.
 
 The same principles are also being explored for everyday interaction. Future systems may support hands-free control in environments where voice, touch, or gesture is inconvenient. However, convenience alone is not enough to justify collecting intimate neural data. The benefits must be weighed against privacy, reliability, and the possibility of unwanted inference.
+
+
 
 ## Neuroprosthetics and Rehabilitation
 

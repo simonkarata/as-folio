@@ -2,7 +2,7 @@
 title: Computer Architecture
 description: How processors, memory, storage, and input-output systems work together to execute programs
 date: 2024-05-26
-author: as-folio
+author: simon
 draft: false
 tags:
   - computer-architecture
