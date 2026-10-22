@@ -159,9 +159,20 @@ Edit `src/pages/index.astro` to change the bio text. The About page auto-pulls f
 
 - **Announcements**: up to `site.announcements.limit` items from `src/content/announcements/`
 - **Latest posts**: up to `site.latestPosts.limit` posts from `src/content/posts/`
+- **Notes graph**: a clickable graph of every published, visible local post from `src/content/posts/`
 - **Selected papers**: entries with `selected = {true}` in `src/data/papers.bib`
 
-All three sections can be disabled in `site.ts`.
+Each section can be disabled in `site.ts`. Configure the notes graph there:
+
+```typescript
+noteGraph: {
+  enabled: true,
+  title: 'notes graph',
+  description: 'Select a point to open that post.',
+},
+```
+
+Each point links to its post. Draft and hidden posts are excluded from the graph.
 
 ---
 

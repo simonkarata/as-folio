@@ -215,6 +215,15 @@ export const site = {
     limit: 3 as number | undefined,
   },
 
+  noteGraph: {
+    /** Show a graph of published blog posts on the about page. */
+    enabled: true,
+    /** Heading shown above the post graph. */
+    title: 'notes graph',
+    /** Hint shown below the heading and as the graph's accessible description. */
+    description: 'Select a point to open that post.',
+  },
+
   selectedPapers: {
     /** Show selected publications section on the about page. */
     enabled: false,
