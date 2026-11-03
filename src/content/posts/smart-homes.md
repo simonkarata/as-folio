@@ -16,6 +16,20 @@ A smart home is not simply a house filled with devices that can be controlled fr
 
 The most useful smart-home technology is often quiet. It reduces small decisions, prevents waste, and makes important information available at the right moment. The goal is not to automate everything. It is to make everyday environments more comfortable, efficient, accessible, and understandable.
 
+<figure>
+  <img
+    src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/20._Station_der_Zukunftsenergientour-_Energieeffizienz-Projekte_SmartHome_in_Paderborn_%2812101292126%29.jpg/1280px-20._Station_der_Zukunftsenergientour-_Energieeffizienz-Projekte_SmartHome_in_Paderborn_%2812101292126%29.jpg"
+    alt="A smart-home energy-efficiency demonstration in Paderborn"
+    loading="lazy"
+    style="display:block;width:100%;max-height:32rem;object-fit:cover;border-radius:0.5rem"
+  />
+  <figcaption style="text-align:center">
+    Smart-home energy-efficiency demonstration in Paderborn. Photo by
+    <a href="https://commons.wikimedia.org/wiki/File:20._Station_der_Zukunftsenergientour-_Energieeffizienz-Projekte_SmartHome_in_Paderborn_(12101292126).jpg" target="_blank" rel="noopener noreferrer">EnergieAgentur.NRW</a>,
+    licensed under <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener noreferrer">CC BY 2.0</a>.
+  </figcaption>
+</figure>
+
 ## The Building Blocks of a Smart Home
 
 Most smart-home systems combine four layers:
@@ -43,11 +57,55 @@ The technology is most effective when it turns information into a decision. A gr
 
 Connected homes may eventually coordinate with solar panels, batteries, electric vehicles, and variable electricity pricing. A home could charge a vehicle when renewable power is abundant, store energy before an expensive period, or reduce consumption during a grid emergency. This turns the home from a passive consumer into a small participant in the energy system.
 
+<figure>
+  <img
+    src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/AVM_FRITZ%21DECT_301-8942.jpg/1280px-AVM_FRITZ%21DECT_301-8942.jpg"
+    alt="A smart thermostatic radiator valve"
+    loading="lazy"
+    style="display:block;width:100%;max-height:32rem;object-fit:contain;border-radius:0.5rem"
+  />
+  <figcaption style="text-align:center">
+    A connected thermostatic radiator valve. Photo by
+    <a href="https://commons.wikimedia.org/wiki/File:AVM_FRITZ!DECT_301-8942.jpg" target="_blank" rel="noopener noreferrer">Raimond Spekking</a>,
+    licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>.
+  </figcaption>
+</figure>
+
+<figure>
+  <div style="position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;border-radius:0.5rem;background:#000">
+    <iframe
+      src="https://www.youtube.com/embed/78GOe9Uklm8?rel=0"
+      title="Smart Home Energy Optimization by Home Automation Guy"
+      loading="lazy"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+      style="position:absolute;inset:0;width:100%;height:100%;border:0"
+    ></iframe>
+  </div>
+  <figcaption style="text-align:center">Smart Home Energy Optimization — Home Automation Guy.</figcaption>
+</figure>
+
 ## The Challenge of Interoperability
 
 One of the biggest obstacles to smart-home adoption is that devices do not always work well together. Different manufacturers may use different apps, communication protocols, account systems, and definitions of basic features. A door sensor might work perfectly in its own app but be invisible to the lighting system a resident wants to control.
 
 Interoperability means more than sharing a logo on a product box. It requires devices to exchange reliable information, preserve important settings, and continue working when one service changes ownership or goes offline. Open standards and local control can reduce dependence on a single vendor, but compatibility still needs to be tested in real homes with real network conditions.
+
+<figure>
+  <div style="position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;border-radius:0.5rem;background:#000">
+    <iframe
+      src="https://www.youtube.com/embed/oHsnjZPuqKM?rel=0"
+      title="Matter: Making the smart home a more connected, comfortable, and helpful place — Connectivity Standards Alliance"
+      loading="lazy"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+      style="position:absolute;inset:0;width:100%;height:100%;border:0"
+    ></iframe>
+  </div>
+  <figcaption style="text-align:center">An introduction to Matter from the Connectivity Standards Alliance.</figcaption>
+</figure>
 
 The best system is therefore not necessarily the one with the largest number of devices. A smaller collection of well-supported products can be more useful than a crowded installation that is difficult to configure or repair. Before buying a device, it is worth asking whether it supports the chosen platform, whether it can be controlled locally, and what happens if the manufacturer stops providing updates.
 
