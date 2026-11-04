@@ -4,6 +4,7 @@ description: How connected devices are changing homes, from automation and energ
 date: 2026-02-09
 author: simon
 draft: false
+pinned: true
 tags:
   - smart-homes
   - internet-of-things
