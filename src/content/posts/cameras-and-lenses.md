@@ -108,3 +108,8 @@ The image signal processor, or ISP, turns sensor readings into a usable image. I
 - Encoding the final image as JPEG, HEIF, or another format
 
 Computational photography extends this process across several frames. A phone may combine exposures for high dynamic range, align frames to reduce noise, estimate depth for portrait blur, or use a learned model to sharpen fine detail. These techniques can produce results that would be difficult to obtain from a single exposure, but they may also create halos, smearing, or invented-looking texture when the input is ambiguous. 
+
+### Camera Obscura
+
+A _camera obscura_ consists of a box, tent, or room with a small hole in one side or the top. Light from an external scene passes through the hole and strikes a surface inside, where the scene is reproduced, inverted (upside-down) and reversed (left to right), but with color and [perspective](https://en.wikipedia.org/wiki/Perspective_\(graphical\) "Perspective (graphical)") preserved 
+![[Pasted image 20261008102456.png|284]]
