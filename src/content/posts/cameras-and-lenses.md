@@ -63,6 +63,35 @@ A wider aperture also produces a shallower depth of field. Objects near the focu
 
 Lenses are imperfect. They can introduce chromatic aberration, distortion, vignetting, flare, and softness near the edges of the frame. Modern cameras often correct these problems digitally using lens profiles.
 
+<figure>
+  <img
+    src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Camera_Zenit_11%2C_lens_Gelios_44M._View_from_three_sides.jpg/1280px-Camera_Zenit_11%2C_lens_Gelios_44M._View_from_three_sides.jpg"
+    alt="Front, side, and rear views of a Zenit 11 camera with its Helios 44M lens"
+    loading="lazy"
+    style="display:block;width:100%;max-height:32rem;object-fit:contain;border-radius:0.5rem"
+  />
+  <figcaption style="text-align:center">
+    A Zenit 11 camera and Helios 44M lens, shown from three sides. Photo by
+    <a href="https://commons.wikimedia.org/wiki/File:Camera_Zenit_11,_lens_Gelios_44M._View_from_three_sides.jpg" target="_blank" rel="noopener noreferrer">Dmitry Makeev</a>,
+    licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>.
+  </figcaption>
+</figure>
+
+<figure>
+  <video controls preload="metadata" playsinline style="display:block;width:100%;max-height:32rem;border-radius:0.5rem;background:#000">
+    <source
+      src="https://upload.wikimedia.org/wikipedia/commons/c/c9/%22%2Barya%2B%22_Samsung_Pl20_camera_closing_lens_in_slow_motion.webm"
+      type="video/webm"
+    />
+    Your browser does not support embedded video.
+  </video>
+  <figcaption style="text-align:center">
+    A compact camera's lens closing in slow motion. Video by
+    <a href="https://commons.wikimedia.org/wiki/File:%22%2Barya%2B%22_Samsung_Pl20_camera_closing_lens_in_slow_motion.webm" target="_blank" rel="noopener noreferrer">Aris riyanto</a>,
+    licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>.
+  </figcaption>
+</figure>
+
 ## Exposure: Aperture, Shutter, and Sensitivity
 
 The amount of light recorded by a camera depends mainly on three controls:
@@ -112,4 +141,16 @@ Computational photography extends this process across several frames. A phone ma
 ### Camera Obscura
 
 A _camera obscura_ consists of a box, tent, or room with a small hole in one side or the top. Light from an external scene passes through the hole and strikes a surface inside, where the scene is reproduced, inverted (upside-down) and reversed (left to right), but with color and [perspective](https://en.wikipedia.org/wiki/Perspective_\(graphical\) "Perspective (graphical)") preserved 
-![[Pasted image 20261008102456.png|284]]
+
+<figure>
+  <img
+    src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Camera_obscura2.jpg/1280px-Camera_obscura2.jpg"
+    alt="A historical illustration of a camera obscura projecting an inverted image"
+    loading="lazy"
+    style="display:block;width:100%;max-height:32rem;object-fit:contain;border-radius:0.5rem"
+  />
+  <figcaption style="text-align:center">
+    A 17th-century camera obscura illustration from the Library of Congress, in the public domain.
+    <a href="https://commons.wikimedia.org/wiki/File:Camera_obscura2.jpg" target="_blank" rel="noopener noreferrer">View the image source</a>.
+  </figcaption>
+</figure>
